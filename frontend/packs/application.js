@@ -7,5 +7,6 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 
-// importing registers the contents of a folder
+// importing registers the contents of a folder/file
 import "init";
+import "components/page/page";
