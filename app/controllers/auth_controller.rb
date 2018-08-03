@@ -13,6 +13,6 @@ class AuthController < ApplicationController
   private
 
   def only_for_anonymous
-    redirect_to_root_path if session[:username] #known user redirected straight to chat
+    redirect_to root_path if session[:username] #known user redirected straight to chat
   end
 end
