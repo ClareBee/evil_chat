@@ -10,3 +10,4 @@
 // importing registers the contents of a folder/file
 import "init";
 import "components/page/page";
+import "components/auth/auth-form";
