@@ -18,7 +18,8 @@ class ChatChannel < ApplicationCable::Channel
   private
 
   def render(message)
+    # gives us access to application controller render
     ApplicationController.new.helpers.c("message", message: message)
   end
-  
+
 end
