@@ -12,3 +12,10 @@ import "init";
 import "components/page/page";
 import "components/auth-form/auth-form";
 import "components/chat/chat";
+// turbolinks and ujs linked to sprockets therefore need to be reinstalled
+import Turbolinks from "turbolinks";
+import Rails from "rails-ujs";
+
+Turbolinks.start();
+
+Rails.start();
